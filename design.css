@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+  
+
+#bilde {
+    width: 80%;
+    height: 30%;
+}
+
+.article{
+    justify-content: end;
+}
