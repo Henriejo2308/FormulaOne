@@ -10,8 +10,21 @@ html {
   
 
 #bilde {
-    width: 80%;
+    width: 100%;
     height: 30%;
+    justify-content: center;
+    
+}
+#driver{
+  width: 50%;
+  height: 50%;
+  padding: 5rem;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #605f5ef7;
+  text-shadow: 2px 2px 2px #000;
 }
 
 .scrollContainer {
@@ -26,4 +39,11 @@ html {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+}
+.scrollText {
+  margin: 3vh auto;
+  max-width: 50rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.8);
+  color: #000;
 }
