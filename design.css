@@ -2,11 +2,16 @@ html {
   scroll-behavior: smooth;
 }
 
+<<<<<<< Updated upstream
 header {
   width: 100vw;
   height: 100vh;
+=======
+.container {
+>>>>>>> Stashed changes
   display: flex;
   justify-content: center;
+<<<<<<< Updated upstream
   align-items: center;
   background-image: url("https://images.unsplash.com/photo-1609013304225-26a1b84ac180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3872&q=80");
   background-size: cover;
@@ -59,3 +64,46 @@ p {
   color: #000;
 }
 
+=======
+}
+  
+
+#bilde {
+    width: 100%;
+    height: 30%;
+    justify-content: center;
+    
+}
+#driver{
+  width: 50%;
+  height: 50%;
+  padding: 5rem;
+}
+
+h2 {
+  font-size: 3rem;
+  color: #605f5ef7;
+  text-shadow: 2px 2px 2px #000;
+}
+
+.scrollContainer {
+  width: 100vw;
+  min-height: 60vh;
+  overflow: hidden;
+
+}
+#introduction {
+  background-color: lightgray;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.scrollText {
+  margin: 3vh auto;
+  max-width: 50rem;
+  padding: 1rem;
+  background: rgba(255, 255, 255, 0.8);
+  color: #000;
+}
+>>>>>>> Stashed changes
