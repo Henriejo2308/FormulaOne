@@ -3,14 +3,16 @@ html {
 }
 
 header {
-  width: 100vw;
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url("https://images.unsplash.com/photo-1609013304225-26a1b84ac180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3872&q=80");
-  background-size: cover;
-  background-position: center center;  
+}
+
+#bilde {
+  width: 100vw;
+  min-height: 60vh;
+  overflow: hidden;
+
 }
 
 h1 {
@@ -42,11 +44,6 @@ color: #000;
 position: absolute;
 }
 #introduction {
-background-image: url("https://images.unsplash.com/photo-1609013304225-26a1b84ac180?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3872&q=80");
-background-attachment: fixed;
-background-size: cover;
-background-repeat: no-repeat;
-background-position: center center;
 color:#000;
 
 }
